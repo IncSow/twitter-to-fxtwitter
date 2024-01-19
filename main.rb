@@ -11,7 +11,7 @@ def fix_message_with_twitter(message, event)
   return unless matched.length&.positive?
 
   # deleter = matched.length > 1
-
+  deleter = false
   if deleter
     event.respond "<@#{event.message.author.id}> sent :\n#{message.gsub($twitter_domains_regexp, "fxtwitter")}"
     event.message.delete
