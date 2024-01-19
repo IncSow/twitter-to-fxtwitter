@@ -17,7 +17,7 @@ You can then run this bot using `ruby main.rb`
 Feel free to contribute, open new issues and PRs.
 This was done in an hour for fun, and may or may not evolve as time goes on.
 
-### TO-DO LIST :
+## TO-DO LIST :
 Link it to a database, so that each server can choose if they want their messages deleted or not. By default, no messages are deleted right now.
 To change this behavior in the meantime, simply uncomment the `deleted` variable.
 
